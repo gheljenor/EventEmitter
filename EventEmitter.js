@@ -74,7 +74,7 @@ EventEmitter.listenerCount = function (emitter, type) {
  * @default null
  * @protected
  */
-EventEmitter.prototype._events = null;
+EventEmitter.prototype._events = undefined;
 
 /**
  * Объект события.
